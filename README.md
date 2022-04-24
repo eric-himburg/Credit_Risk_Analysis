@@ -12,19 +12,25 @@ The results of six model fits are shown in the bullets below.  An imbalanced cla
 ![RandomOversampler model imbalanced classification report](screenshots/model1.png)
 
 * SMOTE algorithm: 
+
 ![SMOTE Algorithm model imbalanced classification report](screenshots/model2.png)
 
 * ClusterCentroids algorithm:
+
 ![Cluster Centroids algorithm model imbalanced classification report](screenshots/model3.png)
 
 * SMOTEENN algorithm:
+
 ![SMOTEENN algorithm model imbalanced classification report](screenshots/model4.png)
 
 * BalancedRandomForestClassifier:
+
 ![BalancedRandomForestClassifier model imbalanced classification report](screenshots/model5.png)
 
 * EasyEnsembleClassifier:
+
 ![EasyEnsembleClassifier model imbalanced classification report](screenshots/model6.png)
+
 
 ## Summary
 All six of the models fit to the data are intended to be used on imbalanced data sets.  Of the six, performed best performed worst
