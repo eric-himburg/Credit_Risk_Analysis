@@ -7,27 +7,27 @@ The credit dataset used in the modeling originated from LendingClub, a peer-to-p
 ## Results
 The results of six model fits are shown in the bullets below.  An imbalanced classification report was generated for each one.  The report, laid out in a table format, includes calculations for the precision (pre), recall (rec), specificity (spe), f1 score (f1), geometric mean (geo) and index balanced accuracy (iba) of the model. All of these are metrics for measuring performance of imbalanced classes.  
 
-* RandomOverSampler: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%.
+* RandomOverSampler: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively.
 
 ![RandomOversampler model imbalanced classification report](screenshots/model1.png)
 
-* SMOTE algorithm: 
+* SMOTE algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
 
 ![SMOTE Algorithm model imbalanced classification report](screenshots/model2.png)
 
-* ClusterCentroids algorithm:
+* ClusterCentroids algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
 
 ![Cluster Centroids algorithm model imbalanced classification report](screenshots/model3.png)
 
-* SMOTEENN algorithm:
+* SMOTEENN algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
 
 ![SMOTEENN algorithm model imbalanced classification report](screenshots/model4.png)
 
-* BalancedRandomForestClassifier:
+* BalancedRandomForestClassifier: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
 
 ![BalancedRandomForestClassifier model imbalanced classification report](screenshots/model5.png)
 
-* EasyEnsembleClassifier:
+* EasyEnsembleClassifier: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
 
 ![EasyEnsembleClassifier model imbalanced classification report](screenshots/model6.png)
 
