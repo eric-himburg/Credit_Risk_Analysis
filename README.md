@@ -11,23 +11,23 @@ The results of six model fits are shown in the bullets below.  An imbalanced cla
 
 ![RandomOversampler model imbalanced classification report](screenshots/model1.png)
 
-* SMOTE algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
+* SMOTE algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 61%, and low-risk precision and recall of 100% and 70%, respectively
 
 ![SMOTE Algorithm model imbalanced classification report](screenshots/model2.png)
 
-* ClusterCentroids algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
+* ClusterCentroids algorithm: the balanced accuaracy score is 52%, with a high-risk precision and recall of 1% and 69%, and low-risk precision and recall of 100% and 39%, respectively
 
 ![Cluster Centroids algorithm model imbalanced classification report](screenshots/model3.png)
 
-* SMOTEENN algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
+* SMOTEENN algorithm: the balanced accuaracy score is 67%, with a high-risk precision and recall of 1% and 78%, and low-risk precision and recall of 100% and 57%, respectively
 
 ![SMOTEENN algorithm model imbalanced classification report](screenshots/model4.png)
 
-* BalancedRandomForestClassifier: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
+* BalancedRandomForestClassifier: the balanced accuaracy score is 78%, with a high-risk precision and recall of 3% and 70%, and low-risk precision and recall of 100% and 87%, respectively
 
 ![BalancedRandomForestClassifier model imbalanced classification report](screenshots/model5.png)
 
-* EasyEnsembleClassifier: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively
+* EasyEnsembleClassifier: the balanced accuaracy score is 93%, with a high-risk precision and recall of 9% and 92%, and low-risk precision and recall of 100% and 94%, respectively
 
 ![EasyEnsembleClassifier model imbalanced classification report](screenshots/model6.png)
 
