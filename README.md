@@ -7,33 +7,33 @@ The credit dataset used in the modeling originated from LendingClub, a peer-to-p
 ## Results
 The results of six model fits are shown in the bullets below.  An imbalanced classification report was generated for each one.  The report, laid out in a table format, includes calculations for the precision (pre), recall (rec), specificity (spe), f1 score (f1), geometric mean (geo) and index balanced accuracy (iba) of the model. All of these are metrics for measuring performance of imbalanced classes.  
 
-* RandomOverSampler: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively.
+* RandomOverSampler: the balanced accuracy score is 66%, with a high-risk precision and recall of 1% and 72%, and low-risk precision and recall of 100% and 60%, respectively.
 
 ![RandomOversampler model imbalanced classification report](screenshots/model1.png)
 
-* SMOTE algorithm: the balanced accuaracy score is 66%, with a high-risk precision and recall of 1% and 61%, and low-risk precision and recall of 100% and 70%, respectively
+* SMOTE algorithm: the balanced accuracy score is 66%, with a high-risk precision and recall of 1% and 61%, and low-risk precision and recall of 100% and 70%, respectively
 
 ![SMOTE Algorithm model imbalanced classification report](screenshots/model2.png)
 
-* ClusterCentroids algorithm: the balanced accuaracy score is 52%, with a high-risk precision and recall of 1% and 69%, and low-risk precision and recall of 100% and 39%, respectively
+* ClusterCentroids algorithm: the balanced accuracy score is 52%, with a high-risk precision and recall of 1% and 69%, and low-risk precision and recall of 100% and 39%, respectively
 
 ![Cluster Centroids algorithm model imbalanced classification report](screenshots/model3.png)
 
-* SMOTEENN algorithm: the balanced accuaracy score is 67%, with a high-risk precision and recall of 1% and 78%, and low-risk precision and recall of 100% and 57%, respectively
+* SMOTEENN algorithm: the balanced accuracy score is 67%, with a high-risk precision and recall of 1% and 78%, and low-risk precision and recall of 100% and 57%, respectively
 
 ![SMOTEENN algorithm model imbalanced classification report](screenshots/model4.png)
 
-* BalancedRandomForestClassifier: the balanced accuaracy score is 78%, with a high-risk precision and recall of 3% and 70%, and low-risk precision and recall of 100% and 87%, respectively
+* BalancedRandomForestClassifier: the balanced accuracy score is 78%, with a high-risk precision and recall of 3% and 70%, and low-risk precision and recall of 100% and 87%, respectively
 
 ![BalancedRandomForestClassifier model imbalanced classification report](screenshots/model5.png)
 
-* EasyEnsembleClassifier: the balanced accuaracy score is 93%, with a high-risk precision and recall of 9% and 92%, and low-risk precision and recall of 100% and 94%, respectively
+* EasyEnsembleClassifier: the balanced accuracy score is 93%, with a high-risk precision and recall of 9% and 92%, and low-risk precision and recall of 100% and 94%, respectively
 
 ![EasyEnsembleClassifier model imbalanced classification report](screenshots/model6.png)
 
 
 ## Summary
-All six of the models fit to the data are intended to be used on imbalanced data sets.  Of the six, the EasyEnsembleClassifier model performed the best with the highest balanced accuracy score (93%)  and the best precision of high-credit risk (9%). The ClusterCentroids model performed worst with the lowest balanced accuracy score (52%) and the least precision of high-credit risk (1%).
+All six of the models fit to the data are intended to be used on imbalanced data sets.  Of the six, the EasyEnsembleClassifier model performed the best with the highest balanced accuracy score (93%) and the best precision of high-credit risk (9%). The ClusterCentroids model performed worst with the lowest balanced accuracy score (52%) and the least precision of high-credit risk (1%).
 
 Given that the purpose of the model in this analysis is to find high-credit risks, the most important factors to look at are the precision and recall of the high-risk population calculations of each model.  The precision tells us the ability of the model to not label an instance positive that is actually true, while the recall tells us the ability of the model to find all positive instances.  Our best model, the EasyEnsembleClassifier, was able to find 92% of the high-risk credit cases.  However, its precision of 9% means that a lot of low-risk credit cases are falsely being classified as high-risk.  Given that the best of our six models was not able to achieve a high level of precision and recall, it is not recommended that any of the models be used as a predictor of high-credit risk.  
 
