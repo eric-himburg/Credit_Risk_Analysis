@@ -33,6 +33,6 @@ The results of six model fits are shown in the bullets below.  An imbalanced cla
 
 
 ## Summary
-All six of the models fit to the data are intended to be used on imbalanced data sets.  Of the six, performed best performed worst
+All six of the models fit to the data are intended to be used on imbalanced data sets.  Of the six, the EasyEnsembleClassifier model performed the best with the highest balanced accuracy score and the best precision of high-credit risk. The ClusterCentroids model performed worst with the lowest balanced accuracy score and the least precision of high-credit risk.  
 
 
